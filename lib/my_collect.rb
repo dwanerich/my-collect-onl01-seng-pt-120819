@@ -3,5 +3,6 @@ def my_collect(array)
     array.each do |element|
       new << yield element
     end
+    new
 end
 
