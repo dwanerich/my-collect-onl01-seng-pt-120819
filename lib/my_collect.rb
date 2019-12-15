@@ -1,4 +1,4 @@
-def collection
+def my_collect(empty_array)
   
 end
 
