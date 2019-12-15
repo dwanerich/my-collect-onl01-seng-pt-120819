@@ -3,5 +3,6 @@ def my_collect(empty_array)
       element.upcase
       return
     end
+    my_collect
 end
 
