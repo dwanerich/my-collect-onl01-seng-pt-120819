@@ -1,7 +1,7 @@
 def my_collect(array)
     new = []
     array.each do |element|
-      new << yield element.upcase
+      new << yield element
     end
 end
 
