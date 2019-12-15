@@ -1,6 +1,7 @@
-def my_collect(empty_array)
-    empty_array.each do |element|
-      element.upcase
+def my_collect(array)
+    new = []
+    array.each do |element|
+      new << yield element.upcase
     end
 end
 
